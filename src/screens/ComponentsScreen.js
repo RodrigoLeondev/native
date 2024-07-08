@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native'
 export default function ComponentsScreen() {
   return (
     <View>
-      <Text style={styles.text}>Components</Text>
+      <Text style={styles.text}>A pretty botton</Text>
     </View>
   )
 }
