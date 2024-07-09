@@ -27,6 +27,10 @@ const HomeScreen = (props) => {
       >
         <Text style={styles.textStyle}>Go to Counter</Text>
       </TouchableOpacity>
+      <Button
+        title="Go to colors square"
+        onPress={() => props.navigation.navigate('Colors')}
+      />
     </View>
   )
 }
